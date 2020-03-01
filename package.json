@@ -8,7 +8,7 @@
     "dev": "node -r ts-node/register ./src/app.ts",
     "dev:watch": "nodemon",
     "devDebug": "node --inspect=5858 -r ts-node/register ./src/app.ts",
-    "start": "tsc && node ./build/app.js\"",
+    "start": "tsc && node ./build/app.js",
     "build": "tsc",
     "devNo-tsnode": "concurrently \"tsc -w\" \"nodemon ./build/app.js"
   },
