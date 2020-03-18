@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "mocha -r ts-node/register test/**/*.ts",
-    "testDebug": "mocha -r ts-node/register --inspect=5858 test/**/*.ts",
+    "test": "mocha --exit -r ts-node/register test/**/*.ts",
+    "testDebug": "mocha --exit -r ts-node/register --inspect=5858 test/**/*.ts",
     "dev": "node -r ts-node/register ./src/app.ts",
     "dev:watch": "nodemon",
     "devDebug": "node --inspect=5858 -r ts-node/register ./src/app.ts",
