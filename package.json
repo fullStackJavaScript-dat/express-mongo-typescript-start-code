@@ -1,7 +1,7 @@
 {
   "name": "v1",
   "version": "1.0.0",
-  "description": "",
+  "description": "Start Code for FullStack JavaScript with Typescript, period-2",
   "scripts": {
     "test": "mocha --exit -r ts-node/register test/**/*.ts",
     "testDebug": "mocha --exit -r ts-node/register --inspect=5858 test/**/*.ts",
